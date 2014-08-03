@@ -1,5 +1,10 @@
-
+<html>
+<head>
+<title>Ruby on Rails Tutorial Sample App | <%= @title %></title>
+<body>
 <h1>Contact us</h1>
 <p>This is the Contact page for the <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a> Sample Application</p>
 
-
+</body>
+</head>
+</html>
