@@ -84,13 +84,44 @@ a.signup_button{
   margin-left: auto;
   margin-right: auto;
   display: block;
+  text-align: center;
   width: 90px
   color: #fff;
-  padding: 20px;
-  font-size: 150%;
-  text-align: center;
   background: #006400;
+  font-size: 150%;
   font-weight: bold;
+  padding: 20px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #999;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
 }
 
 
