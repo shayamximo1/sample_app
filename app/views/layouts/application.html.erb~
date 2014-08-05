@@ -13,7 +13,7 @@
 	   <ul>
 	     
                <li><%= link_to "Home", '#' %></li>
- 	       <li><%= link_to "Help", '#' %></li>
+ 	       <li><%= link_to "Help", help_path %></li>
 	       <li><%= link_to "Sign in", '#' %></li>
 	     
            </ul>
@@ -22,6 +22,7 @@
 <section class="round">
 <%= yield %>
 </section>
+<%= render 'layouts/footer' %>
 
 
 </body>

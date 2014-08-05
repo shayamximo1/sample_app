@@ -23,6 +23,10 @@ section{
    background: #fff;
 }
 
+section h1{
+  font-size: 200%
+}
+
 /* Links*/
 
 a{
@@ -91,6 +95,37 @@ a.signup_button{
   font-size: 150%;
   font-weight: bold;
   padding: 20px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #999;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
 }
 
 
